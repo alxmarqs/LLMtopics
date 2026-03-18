@@ -1,0 +1,24 @@
+# Environments
+venv/
+venv313/
+.env
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+cache/
+resultados_temporarios/
+
+# Model and Data
+chroma_db/
+dados_processados/
+arqgeo-llm-lora/
+*.safetensors
+*.bin
+*.model
+*.jsonl
+
+# OS generated files
+.DS_Store
+Thumbs.db
